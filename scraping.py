@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup as soup
 from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 import datetime as dt
+import requests
 
 def scrape_all():
    # Initiate headless driver for deployment
